@@ -45,7 +45,7 @@ import java.util.Scanner;
                     n_homens = nomesFormatados[count].split("-");
                     listaHomens.add(n_homens[0]);
 
-                } else {
+                } else if(nomesFormatados[count].toString().toLowerCase().endsWith("f")){
                     n_mulheres = nomesFormatados[count].split("-");
                     listaMulheres.add(n_mulheres[0]);
 
